@@ -5,9 +5,15 @@ import { Button, ButtonGroup } from 'reactstrap';
 
 const FilterController = ({ handleFilter }) => (
     <ButtonGroup>
-        <Button onClick={() => handleFilter('all')}>All</Button>
-        <Button onClick={() => handleFilter('running')}>Running</Button>
-        <Button onClick={() => handleFilter('completed')}>Completed</Button>
+        <Button className="" onClick={() => handleFilter('all')}>
+            All
+        </Button>
+        <Button className="" onClick={() => handleFilter('running')}>
+            Running
+        </Button>
+        <Button className="" onClick={() => handleFilter('completed')}>
+            Completed
+        </Button>
     </ButtonGroup>
 );
 
